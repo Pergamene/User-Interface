@@ -70,15 +70,25 @@ h1, h2, h3, h4, h5 {
 }
 
 .container {
-	margin: 25px 50px;
+	margin: 0 50px;
 }
 
 /* Nav bar */
+nav {
+	padding:10px;
+	background-color: #5393c0;
+	width: 90%;
+	position: fixed;
+	top: 0;
+}
+
 nav a {
+	vertical-align: top;
 	display: inline-block;
 	font-size: 14px;
 	margin-left: 7%;
-	color: #b4b4b4;
+	margin-top: 13px;
+	color: #000;
 	text-decoration: none;
 }
 
@@ -87,14 +97,18 @@ nav a:first-child {
 }
 
 nav a:hover {
-	color: #5393c0;
+	color: #b4b4b4;
 }
 
 .logo {
-	margin-left: 10%;
+	margin-left: 9%;
 }
 
 /* Header */
+header {
+	margin-top: 100px;
+}
+
 h1 {
 	display: inline-block;
 	font-size: 72px;
